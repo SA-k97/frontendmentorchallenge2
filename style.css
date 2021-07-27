@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+@media only screen and (max-width: 900px) {
+body{
+    
+    background-color: #E5E5E5;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 332px;
+    height: 1800px;
+    align-items: center;
+
+    
+}
+
+section div{
+    align-items: stretch;
+    padding-left:31px ;
+    padding-right: 31px;
+    padding-top: 65px;
+}
+
+div h1{
+    font-family: Big Shoulders Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 57px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+div p{
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.col1{
+    background-color:#E38826 ;
+    border-radius: 10px 10px 0px 0px;
+    height: 600px;
+}
+
+.col1 a{
+    top:495px;
+}
+
+.col2{
+    background-color:hsla(184, 100%, 22%, 1);
+    height: 600px;
+    
+}
+
+.col2 a{
+    top:1095px;
+}
+
+.col3{
+    background: hsla(179, 100%, 13%, 1);
+    height: 600px;
+    border-radius: 0px 0px 10px 10px;
+
+
+}
+
+.col3 a{
+    top:1695px;
+} 
+
+div a{
+    
+    position: absolute;
+    width: 178px;
+    height: 57px;
+    border: 5px solid #E5E5E5;
+    border-radius: 30px;
+    padding-top: 28.5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    left:77px;
+    
+
+}
+
+.col1 a:hover{
+
+    position: absolute;
+    width: 178px;
+    height: 57px;
+    border: 5px solid #E5E5E5;
+    background-color: #E5E5E5;
+    border-radius: 30px;
+    padding-top: 28.5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #E38826 ;
+    left:77px;
+
+}
+
+.col2 a:hover{
+
+    position: absolute;
+    width: 178px;
+    height: 57px;
+    border: 5px solid #E5E5E5;
+    background-color: #E5E5E5;
+    border-radius: 30px;
+    padding-top: 28.5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color:hsla(184, 100%, 22%, 1) ;
+    left:77px;
+
+}
+
+.col3 a:hover{
+
+    position: absolute;
+    width: 178px;
+    height: 57px;
+    border: 5px solid #E5E5E5;
+    background-color: #E5E5E5;
+    border-radius: 30px;
+    padding-top: 28.5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: hsla(179, 100%, 13%, 1);
+    left:77px;
+
+}
+}
+
+
+
+@media only screen and (min-width: 900px) {
+
+    body{
+        
+        background-color:#E5E5E5 ;
+    }
+
+
+    .main{
+
+
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content:center;
+        width: 996px;
+        height: 600px;
+
+    }
+
+    section div{
+        padding-left: 31px;
+        padding-right: 31px;
+        padding-top: 65px;
+    }
+
+    div h1{
+        font-family: Big Shoulders Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 57px;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+    
+    div p{
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+
+    
+
+    .col1{
+        background-color:#E38826 ;
+        border-radius: 10px 0px 0px 10px;
+        width: 332px;
+    }
+
+    .col1 a{
+        left: 77px;
+    }
+
+    .col2{
+        background-color:hsla(184, 100%, 22%, 1) ;
+        width: 332px;
+    }
+
+    .col2 a{
+        left:409px;
+    }
+
+    .col3{
+        background-color:hsla(179, 100%, 13%, 1) ;
+        border-radius: 0px 10px 10px 0px;
+        width: 332px;
+    }
+
+    .col3 a{
+        left: 741px;
+    }
+
+    div a{
+    
+        position: absolute;
+        width: 178px;
+        height: 57px;
+        border: 5px solid #E5E5E5;
+        border-radius: 30px;
+        padding-top: 28.5px;
+        text-decoration: none;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+
+        
+    
+    }
+
+    .col1 a:hover{
+
+        position: absolute;
+        width: 178px;
+        height: 57px;
+        border: 5px solid #E5E5E5;
+        background-color: #E5E5E5;
+        border-radius: 30px;
+        padding-top: 28.5px;
+        text-decoration: none;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #E38826 ;
+   
+    
+    }
+    
+
+    .col2 a:hover{
+
+        position: absolute;
+        width: 178px;
+        height: 57px;
+        border: 5px solid #E5E5E5;
+        background-color: #E5E5E5;
+        border-radius: 30px;
+        padding-top: 28.5px;
+        text-decoration: none;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color:hsla(184, 100%, 22%, 1) ;
+    
+    
+    }
+
+    .col3 a:hover{
+
+        position: absolute;
+        width: 178px;
+        height: 57px;
+        border: 5px solid #E5E5E5;
+        background-color: #E5E5E5;
+        border-radius: 30px;
+        padding-top: 28.5px;
+        text-decoration: none;
+        text-align: center;
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: hsla(179, 100%, 13%, 1);
+    
+    
+    }
+
+}
+
+
+    
